@@ -8,4 +8,5 @@ buttonNode.addEventListener('click', () => {
             console.log(response);
             titleNode.textContent = response.activity;
         });
+    document.body.style.background = 'linear-gradient(to bottom, rgba(0, 176, 28, 1), rgba(255, 255, 255, 0))'
 });
